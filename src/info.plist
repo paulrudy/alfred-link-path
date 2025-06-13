@@ -1018,8 +1018,10 @@ The default suffix ` symlink` can be changed or omitted in the [Workflow Configu
 		<key>sl_suffix_default</key>
 		<string>[space]symlink</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

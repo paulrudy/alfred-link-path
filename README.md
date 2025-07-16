@@ -1,5 +1,7 @@
 # Link Path - Alfred workflow
 
+[Available on the Alfred Gallery](https://alfred.app/workflows/paulrudy/link-path/)
+
 [Alfred forum thread](https://www.alfredforum.com/topic/23192-link-path-make-a-finder-alias-or-symbolic-link/)
 
 Create a symbolic link or Finder alias to a file or folder

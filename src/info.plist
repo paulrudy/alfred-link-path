@@ -802,13 +802,17 @@
 	<key>readme</key>
 	<string># Link Path - Alfred workflow
 
-Make a Finder alias or symbolic link to a file or folder
+[Available on the Alfred Gallery](https://alfred.app/workflows/paulrudy/link-path/)
+
+[Alfred forum thread](https://www.alfredforum.com/topic/23192-link-path-make-a-finder-alias-or-symbolic-link/)
+
+Create a symbolic link or Finder alias to a file or folder
 
 ## Usage
 
-Make a Finder alias or symbolic link via the [Universal Actions](https://www.alfredapp.com/help/features/universal-actions/).
+Create a symbolic link or Finder alias via the [Universal Actions](https://www.alfredapp.com/help/features/universal-actions/).
 
-![screenshot of Link Path universal actions](./screenshots/universal-action.png)
+![screenshot of Link Path universal actions](src/screenshots/universal-action.png)
 
 - &lt;kbd&gt;↩︎&lt;/kbd&gt; Place the link in the same folder as the source
 - &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩︎&lt;/kbd&gt; Use Alfred to move the link to another location

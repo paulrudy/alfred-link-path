@@ -1005,10 +1005,10 @@ The default suffix ` symlink` can be changed or omitted in the [Workflow Configu
 				<key>required</key>
 				<false/>
 				<key>trim</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>description</key>
-			<string>Enter a string to append to the name of any symlink created in case of filename conflict. Use "[space]" to designate a leading space character. Leave blank to skip.</string>
+			<string>Enter a string to append to the name of any symlink created in case of filename conflict. Whitespace (such as a leading space character) is respected.</string>
 			<key>label</key>
 			<string>Custom symlink suffix</string>
 			<key>type</key>
@@ -1017,15 +1017,8 @@ The default suffix ` symlink` can be changed or omitted in the [Workflow Configu
 			<string>sl_suffix_custom</string>
 		</dict>
 	</array>
-	<key>variables</key>
-	<dict>
-		<key>sl_suffix_default</key>
-		<string>[space]symlink</string>
-	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

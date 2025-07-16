@@ -2,12 +2,11 @@
 
 dirname=$(dirname -- "$source_path")
 basename=$(basename -- "$source_path")
+sl_suffix_default=" symlink"
 
 if [[ sl_suffix_enable -eq 1 ]]; then
   [[ -n $sl_suffix_custom ]] && sl_suffix=$sl_suffix_custom || sl_suffix=$sl_suffix_default
 fi
-sl_suffix="${sl_suffix//\[space\]/ }"
-
 
 # if file, get extension, accounting for filenames ending in "." or with no extension
 if [[ -f $source_path && "$basename" == *"."* && "$basename" != *"." ]]; then

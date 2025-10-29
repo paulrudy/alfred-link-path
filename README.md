@@ -17,4 +17,4 @@ Create a symbolic link or Finder alias via the [Universal Actions](https://www.a
 
 Aliases are renamed according to Finder's behavior. Symbolic links are renamed in the same way, to avoid overwriting files that already exist in the destination path. For example: For a source `foo.txt`, the symlink will be named `foo symlink.txt`, or `foo symlink 2.txt`, etc.
 
-The default suffix ` symlink` can be changed or omitted in the [Workflow Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
+The default suffix `symlink` can be changed or omitted in the [Workflow Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).

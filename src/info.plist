@@ -448,27 +448,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsfiles</key>
-				<true/>
-				<key>acceptsmulti</key>
-				<integer>0</integer>
-				<key>acceptstext</key>
-				<true/>
-				<key>acceptsurls</key>
-				<false/>
-				<key>name</key>
-				<string>Create symbolic link</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.universalaction</string>
-			<key>uid</key>
-			<string>4A28B208-6418-4E8B-BA0D-21203A7AA5CD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>{query}</string>
 				<key>passthroughargument</key>
@@ -487,6 +466,27 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>33E3AA63-F668-45EA-9204-2DA26171A92A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsfiles</key>
+				<true/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<false/>
+				<key>name</key>
+				<string>Create symbolic link</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>4A28B208-6418-4E8B-BA0D-21203A7AA5CD</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -812,14 +812,14 @@ Create a symbolic link or Finder alias to a file or folder
 
 Create a symbolic link or Finder alias via the [Universal Actions](https://www.alfredapp.com/help/features/universal-actions/).
 
-![screenshot of Link Path universal actions](src/screenshots/universal-action.png)
+![screenshot of Link Path universal actions](./screenshots/universal-action.png)
 
 - &lt;kbd&gt;↩︎&lt;/kbd&gt; Place the link in the same folder as the source
 - &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩︎&lt;/kbd&gt; Use Alfred to move the link to another location
 
 Aliases are renamed according to Finder's behavior. Symbolic links are renamed in the same way, to avoid overwriting files that already exist in the destination path. For example: For a source `foo.txt`, the symlink will be named `foo symlink.txt`, or `foo symlink 2.txt`, etc.
 
-The default suffix ` symlink` can be changed or omitted in the [Workflow Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).</string>
+The default suffix `symlink` can be changed or omitted in the [Workflow Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).</string>
 	<key>uidata</key>
 	<dict>
 		<key>03C2B78F-7EB8-4CBF-83D4-BD949009D856</key>
@@ -1018,7 +1018,7 @@ The default suffix ` symlink` can be changed or omitted in the [Workflow Configu
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>1.1.1</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

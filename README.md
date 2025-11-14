@@ -1,5 +1,8 @@
 # Link Path - Alfred workflow
 
+> [!IMPORTANT]
+> This project has [migrated to Codeberg](https://codeberg.org/paulrudy/alfred-link-path) as of release 1.1.2. All updates, issues, and pull requests will occur there.
+
 [Available on the Alfred Gallery](https://alfred.app/workflows/paulrudy/link-path/)
 
 [Alfred forum thread](https://www.alfredforum.com/topic/23192-link-path-make-a-finder-alias-or-symbolic-link/)
